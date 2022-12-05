@@ -3681,25 +3681,6 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	text-align: center;
 }
 
-#main>.post {
-	padding: 8rem 8rem 6rem 8rem;
-}
-
-#main>.post header.major>.date {
-	margin-top: -2rem;
-}
-
-#main>.post header.major>h1,
-#main>.post header.major h2 {
-	font-size: 4rem;
-	line-height: 1.1;
-	margin: 0 0 2rem 0;
-}
-
-#main>.post.featured {
-	text-align: center;
-}
-
 @media screen and (max-width: 1280px) {
 
 	#main>.post {
@@ -4166,7 +4147,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 #wrapper {
 	background-color: #212931;
-	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+	background-image:linear-gradient(0deg, #004E92, #000428);
 	background-size: auto, auto, 100% auto;
 	background-position: center, center, top center;
 	background-repeat: repeat, no-repeat, no-repeat;
@@ -4189,4 +4170,26 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	-ms-transform: none;
 	transform: none;
 	opacity: 1;
+}
+
+.name{
+	margin-bottom: 0.1em;
+}
+
+.technologies{
+	display: flex;
+	gap: 15px;
+}
+
+.technologies img{
+	width: 80px;
+	height: 80px;
+}
+
+.bg-color{
+	background-color: #3f51b5;
+}
+
+.titulo-proyectos{
+	text-align: center;
 }
