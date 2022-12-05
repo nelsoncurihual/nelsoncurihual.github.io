@@ -3505,6 +3505,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
+	justify-content: flex-end;
 	-moz-transition: -moz-transform 1s ease, opacity 1s ease;
 	-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 	-ms-transition: -ms-transform 1s ease, opacity 1s ease;
